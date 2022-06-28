@@ -34,7 +34,7 @@ body{
     font-style: italic;
     word-wrap: break-word;
     color: #1F2937;
-    
+    text-align: left;
 }
 
 .quote-name{
@@ -42,6 +42,7 @@ body{
     font-size: small;
     font-weight: 700;
     margin-left: 36px;
+    text-align: right;
 }
 
 .header  {
@@ -54,7 +55,35 @@ body{
     padding-bottom: 30px;
     
     
+    
   }
+
+
+  h1{
+      font-size: 48px;
+      font-weight: 900;
+
+  }
+
+  h2{
+      font-size: 18px;
+  }
+  .mid-header{
+    text-align: left;
+  }
+
+
+  .topsignup{
+    width: 100px;
+    height: 20px;
+    background-color: #3882f6;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+  }
+
 
 .top{
     padding: 8px;
